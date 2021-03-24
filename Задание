@@ -1,0 +1,254 @@
+Вариант 1
+
+Соообщение "Сохранено" при следующих значениях поля "Пользователь":
+- Исаак_Ньютон
+- Isaac_Newton
+- [-_'`пробел]
+- [пробел]Исаак_Ньютон[пробел]
+- Исаак_[пробел][пробел]Ньютон
+- [пробел][пробел]_[пробел][пробел]
+- [пробел]_[пробел]
+- [пустое]_[пустое]
+- (256 символов) Qrioqwrhirqhowihorhqiwrioqwihorhiqowrhioqwhirihoqwhirqhwfeiowhfwihofwhioehfioавышашыщваршывршашырваршщырацухаощцхкщшгуеещййхохмвымвсцсцсуцсузцмщуцоуцзуцопуауцщаоуцазцощауцощзацзощу_Fjpwefjopwjowjofjowjopefwjopfjoweojpfwjopefjowejfweidqwdiqwidhqwdiqwdwidqqw
+- И_Н
+
+
+Сообщение "Ошибка" при следующих значениях поля "Пользователь":
+- isaac_Newton (исаак_Ньютон)
+- Isaac_newton (Исаак_ньютон)
+- I12345_N67890
+- isaac_newton (исаак_ньютон)
+- ИСААК_НЬЮТОН (ISAAC_NEWTON)
+- Исаак_[пустое]
+- [пустое]_Ньютон
+- [~!@#$%№^&*()+=?[]{}|\/;,.:"]
+- (257 символов) Qrioqwrhirqhowihorhqiwrioqwihorhiqowrhioqwhirihoqwhirqhwfeiowhfwihofwhioehfioавышашыщваршывршашырваршщырацухаощцхкщшгуеещййхохмвымвсьцсцсуцсузцмщуцоуцзуцопуауцщаоуцазцощауцощзацзощу_Fjpwefjopwjowjofjowjopefwjopfjoweojpfwjopefjowejfweidqwdiqwidhqwdiqwdwidqqw
+- (512 символов) Qrioqwrhirqhowihorhqiwrioqwihorhiqowrhioqwhirihoqwhirqhwfeiowhfwihofwhioehfioавышашыщваршывршашырваршщырацухаощцхкщшгуеещййхохмвымвсьцсцсуцсузцмщуцоуцзуцопуауцщаоуцазцощауцощзацзощуfjpwefjopwjowjofjowjopefwjopfjoweojp_Wjopefjowejfweidqwdiqwidhqwdiqwdwidqqwqrioqwrhirqhowihorhqiwrioqwihorhiqowrhioqwhirihoqwhirqhwfeiowhfwihofwhioehfioавышашыщваршывршашырваршщырацухаощцхкщшгуеещййхохмвымвсьцсцсуцсузцмщуцоуцзуцопуауцщаоуцазцощауцощзацзощуfjpwefjopwjowjofjowjopefwjopfjoweojpfwjopefjowejfweidqwdiqwidhqwdiqwdwidqqw
+-  öä_βب你
+- ▲♦_♥☺
+- <input>
+<input type="button" title="Hello">
+<form action="http://tut.by"><input type="submit"></form>
+<script>alert("Privet")</script>_
+<script>window.open("http://tut.by")</script>
+<script>document.getElementByID("...").disabled=true</script>
+
+Вариант 2 
+
+Соообщение "Сохранено" при следующих значениях поля "с" и "по":
+- 01.01.1900
+- 31.12.2090
+- 24.03.2021
+- 28.02.2021
+- 29.02.2020
+- 30.03.2021
+- 31.04.2021
+- 01.02.2021
+- 01.01.2021
+- [пустое]
+
+Сообщение "Ошибка" при следующих значениях поля поля "с" и "по":
+- только пробелы. Например [8 пробелов]
+- 31.12.1899
+- 01.01.2091
+- 00.00.0000
+- 32.02.2000
+- 24.13.2000
+- 24.02.2000 23.02.20000
+- 24.03.20211
+- 24.03.202
+- 00.12.2020
+- 12.00.2020
+- 24.04.0000
+- 30.02.2020
+- 29.02.2021
+
+Вариант 3
+
+Соообщение "Сохранено" при следующих значениях поля "Температура воздуха":
+- -50
+- +50
+- [пустое]
+- 0
+- 0,2
+- 0.2
+- 30
+
+
+- -51
+- +51
+- 0/2, 1/8
+- 1E-2
+- [пробел]
+- 0,001
+
+Вариант 4
+
+Соообщение "Сохранено" при следующих значениях поля "Пароль" и "Повторить пароль":
+- text 
+- Text 
+- qwqdqdFw 
+- qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFw 
+- [пустое]
+- *@$#
+
+Соообщение "Ошибка" при следующих значениях поля "Пароль" и "Повторить пароль":
+- TEXT
+- [пробел]
+- текст
+- qwqdqdF
+- qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFww
+- (255 символов) qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdF
+- 1234567890
+- text и text1
+- [~!%№^&()+=?[]{}|\/;,.-:"]
+- öäβب你
+- ▲♦♥☺
+- <input>
+<input type="button" title="Hello">
+<form action="http://tut.by"><input type="submit"></form>
+<script>alert("Privet")</script>_
+<script>window.open("http://tut.by")</script>
+<script>document.getElementByID("...").disabled=true</script>
+
+Вариант 5
+
+Соообщение "Сохранено" при следующих значениях поля "Номер телефона":
+- +123-45-678-90-10
+- +375-44-432-23-32
+- +375-29-322-33-22
+- +375-25-323-22-11
+- +375-33-223-11-11
+- [пустое]
+- +000-00-000-00-00
+- +000-00-000-00-00
+
+Соообщение "Ошибка" при следующих значениях поля "Номер телефона":
+- -375-29-146-80-10
+- +375.29.146.80.10
+- +375/29/146/80/10
+- +375[пробел]44[пробел]146[пробел]80[пробел]10
+- [~!%№^&()=?[]{}|\/;,.-:"]
+- 000-00-000-00-00
+- +0000-000-0000-000-000
+- +00-0-00-0-0
+- +00-00-000-00-00
+- +0000-00-000-00-00
+- +000-0-000-00-00
+- +000-000-000-00-00
+- +000-00-00-00-00
+- +000-00-0000-00-00
+- +000-00-000-0-00
+- +000-00-000-000-00
+- +000-00-000-00-0
+- +000-00-000-00-000
+
+
+Вариант 6
+
+Соообщение "Сохранено" при следующих значениях поля "Электронный адрес":
+- @bsu.by
+- vlad@bsu.by
+- 1234567890@bsu.by
+- vl_ad@bsu.by
+- vl-ad@bsu.by
+- vl.ad@bsu.by
+- VLAD@bsu.by
+- vl@bsu.by
+- vladvladvladvladvladvladvladvladvladvladvlavladvla@bsu.by
+- [пустое]
+
+Соообщение "Ошибка" при следующих значениях поля "Электронный адрес":
+- v@bsu.by
+- vladvladvladvladvladvwladvladvladvladvladvlavladvla@bsu.by
+- [пробел][пробел][пробел]@bsu.by
+- Влад@bsu.by
+- @bsu-by
+- @bsuby
+- @bsu[пробел]by
+- @bsu_by
+- [~!%№^&()=?[]{}|\/;,:"]
+- @auc.by
+- @bsu.ru
+- @bsu.com
+- @bs.by
+- @bsuu.by
+- @bsu.b
+- @bsu.byy
+- 1234567890@bsu.by
+- vladbsu.by
+- vlad bsu.by
+- öäβب你@bsu.by
+- ▲♦♥☺@bsu.by
+- <input>
+<input type="button" title="Hello">
+<form action="http://tut.by"><input type="submit"></form>
+<script>alert("Privet")</script>_
+<script>window.open("http://tut.by")</script>
+<script>document.getElementByID("...").disabled=true</script>
+
+
+Вариант 7
+
+Соообщение "Сохранено" при следующих значениях поля "URL":
+- http[s]://server_name
+- http[s]://12345_67890
+- http[s]://vladvladvladvladvladvladvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- http[s]://serv-er_name
+- http[s]://serv.er_name
+- [пустое]
+
+
+Соообщение "Ошибка" при следующих значениях поля "URL":
+- http[s]://server.name
+- http[s]://server-name
+- http[s]://Server_name
+- http[s]://server_Name
+- http[s]://serverName
+- http[s]://влад_влад
+- [пустое]
+- http[s]://vladvladvladvladvladvlavvvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- http[s]://öäβ_ب你
+- http[s]://[~!%№^&()=?[]{}|\/;,+@:"]
+- http[s]://▲♦_♥☺
+- <input>
+<input type="button" title="Hello">
+<form action="http://tut.by"><input type="submit"></form>
+<script>alert("Privet")</script>_
+<script>window.open("http://tut.by")</script>
+<script>document.getElementByID("...").disabled=true</script>
+
+Вариант 8
+
+Соообщение "Сохранено" при следующих значениях поля "Возраст":
+- 18
+- 65
+- 45
+- 0,5
+- 0,4
+- [пустое]
+
+Соообщение "Ошибка" при следующих значениях поля "Возраст":
+- 17
+- 66
+- 0
+- 2^5 (32)
+- F0
+- 666
+- 0,6
+- 0.5
+- 0[пробел]5
+- 0/5
+- [~!%№^&()=?[]{}|\/;,+-_@:"]
+- 1E-5
+- -18
+- +65
+- 0,05
+- 0,55
+- 5[пробел]0
+- 50[пробел]
+- [пробел]50
+
+
+
+
