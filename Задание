@@ -54,14 +54,19 @@
 - 00.00.0000
 - 32.02.2000
 - 24.13.2000
-- 24.02.2000 23.02.20000
 - 24.03.20211
+- с 24.02.2000 по 23.02.2000
+- 4.02.2000
+- 04.2.2000
 - 24.03.202
 - 00.12.2020
 - 12.00.2020
 - 24.04.0000
 - 30.02.2020
 - 29.02.2021
+- 32.04.2021
+- 31.05.2021
+- 12.05.9999
 
 Вариант 3
 
@@ -70,40 +75,57 @@
 - +50
 - [пустое]
 - 0
-- 0,2
-- 0.2
-- 30
+- +0,1
+- +0,9
+- +0.2
+- +25
+- -25
 
-
+Соообщение "Ошибка" при следующих значениях поля "Температура воздуха":
 - -51
 - +51
-- 0/2, 1/8
+- +0/2, +1/8
+- +0[пробел]2
 - 1E-2
+- F0
+- -2^5
 - [пробел]
-- 0,001
+- 0,0 (0.0)
+- +0,001
+- +0,01
+- -666
+- +666
+- 00
+- [~!%№^&()=?[]{}|\/;+-_@:"]
 
 Вариант 4
 
-Соообщение "Сохранено" при следующих значениях поля "Пароль" и "Повторить пароль":
-- text 
-- Text 
-- qwqdqdFw 
-- qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFw 
-- [пустое]
+Соообщение "Сохранено" при следующих значениях полей "Пароль" и "Повторить пароль":
+- texttext и texttext
+- Texttext и Texttext
+- (8 символов) qwqdqdFw и qwqdqdFw
+- (32 символа) qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFw и qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFw
+- [пустое] и [пустое]
 - *@$#
 
-Соообщение "Ошибка" при следующих значениях поля "Пароль" и "Повторить пароль":
-- TEXT
-- [пробел]
-- текст
-- qwqdqdF
-- qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFww
+Соообщение "Ошибка" при следующих значениях полей "Пароль" и "Повторить пароль":
+- TEXTTEXT
+- [8 пробелов]
+- тексттекст
+- (7 символов) qwqdqdF
+- (33 символа) qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFww
 - (255 символов) qwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdFwqwqdqdF
 - 1234567890
-- text и text1
+- не совпадают 
+  "Пароль": texttext 
+  "Повторить пароль": texttext123 
+- "Пароль": texttext 
+  "Повторить пароль": [пустое]
+- "Пароль": [пустое] 
+  "Повторить пароль": texttext  
 - [~!%№^&()+=?[]{}|\/;,.-:"]
-- öäβب你
-- ▲♦♥☺
+- öäβب你öäβب你
+- ▲♦♥☺▲♦♥☺
 - <input>
 <input type="button" title="Hello">
 <form action="http://tut.by"><input type="submit"></form>
@@ -121,13 +143,17 @@
 - +375-33-223-11-11
 - [пустое]
 - +000-00-000-00-00
-- +000-00-000-00-00
+- +999-99-999-99-99
 
 Соообщение "Ошибка" при следующих значениях поля "Номер телефона":
+- 12345678901234567890
 - -375-29-146-80-10
 - +375.29.146.80.10
 - +375/29/146/80/10
+- +[пробел][пробел][пробел]-[пробел][пробел]-[пробел][пробел][пробел]-[пробел][пробел]-[пробел][пробел]
 - +375[пробел]44[пробел]146[пробел]80[пробел]10
+- +375441483300
+- +375(44)121-00-22
 - [~!%№^&()=?[]{}|\/;,.-:"]
 - 000-00-000-00-00
 - +0000-000-0000-000-000
@@ -147,22 +173,25 @@
 Вариант 6
 
 Соообщение "Сохранено" при следующих значениях поля "Электронный адрес":
-- @bsu.by
 - vlad@bsu.by
-- 1234567890@bsu.by
 - vl_ad@bsu.by
 - vl-ad@bsu.by
 - vl.ad@bsu.by
 - VLAD@bsu.by
-- vl@bsu.by
-- vladvladvladvladvladvladvladvladvladvladvlavladvla@bsu.by
+- (2 символа) vl@bsu.by
+- (50 символов) vladvladvladvladvladvladvladvladvladvladvlavladvla@bsu.by
 - [пустое]
 
 Соообщение "Ошибка" при следующих значениях поля "Электронный адрес":
-- v@bsu.by
-- vladvladvladvladvladvwladvladvladvladvladvlavladvla@bsu.by
+- [пустое]@bsu.by
+- vlad
+- vlad@
+- 1234567890@bsu.by
+- (1 символ) v@bsu.by
+- (51 символ) vladvladvladvladvladvwladvladvladvladvladvlavladvla@bsu.by
+- (255 символов) vladvladvladvladvladvladvladvladvladvladvlavladvlavladvldvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss@bsu.by
 - [пробел][пробел][пробел]@bsu.by
-- Влад@bsu.by
+- влад@bsu.by
 - @bsu-by
 - @bsuby
 - @bsu[пробел]by
@@ -175,9 +204,8 @@
 - @bsuu.by
 - @bsu.b
 - @bsu.byy
-- 1234567890@bsu.by
 - vladbsu.by
-- vlad bsu.by
+- vlad[пробел]bsu.by
 - öäβب你@bsu.by
 - ▲♦♥☺@bsu.by
 - <input>
@@ -193,21 +221,28 @@
 Соообщение "Сохранено" при следующих значениях поля "URL":
 - http[s]://server_name
 - http[s]://12345_67890
-- http[s]://vladvladvladvladvladvladvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- http[s]://s_n
+- (256 символов) http[s]://vladvladvladvladvladvladvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
 - http[s]://serv-er_name
 - http[s]://serv.er_name
 - [пустое]
-
 
 Соообщение "Ошибка" при следующих значениях поля "URL":
 - http[s]://server.name
 - http[s]://server-name
 - http[s]://Server_name
 - http[s]://server_Name
-- http[s]://serverName
+- http[s]://servername
 - http[s]://влад_влад
-- [пустое]
-- http[s]://vladvladvladvladvladvlavvvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- http[s]://[пустое]
+- http[s]://[пробел]_[пробел]
+- (257 символов) http[s]://vladvladvladvladvladvlavvvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- (512 символов) http[s]:/vladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassssvladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- htp[s]://server_name
+- httpp[s]://server_name
+- http[s]//server_name
+- http[s]:/server_name
+- http[s]:///server_name
 - http[s]://öäβ_ب你
 - http[s]://[~!%№^&()=?[]{}|\/;,+@:"]
 - http[s]://▲♦_♥☺
@@ -225,13 +260,14 @@
 - 65
 - 45
 - 0,5
-- 0,4
+- 0,1
 - [пустое]
 
 Соообщение "Ошибка" при следующих значениях поля "Возраст":
 - 17
 - 66
 - 0
+- 0,0
 - 2^5 (32)
 - F0
 - 666
@@ -244,10 +280,9 @@
 - -18
 - +65
 - 0,05
-- 0,55
+- 0,555
 - 5[пробел]0
-- 50[пробел]
-- [пробел]50
+- 50[пробел], [пробел]50
 
 
 
