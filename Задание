@@ -134,7 +134,6 @@
 <script>document.getElementByID("...").disabled=true</script>
 
 Вариант 5
-
 Соообщение "Сохранено" при следующих значениях поля "Номер телефона":
 - +123-45-678-90-10
 - +375-44-432-23-32
@@ -171,7 +170,6 @@
 
 
 Вариант 6
-
 Соообщение "Сохранено" при следующих значениях поля "Электронный адрес":
 - vlad@bsu.by
 - vl_ad@bsu.by
@@ -217,35 +215,41 @@
 
 
 Вариант 7
-
 Соообщение "Сохранено" при следующих значениях поля "URL":
-- http[s]://server_name
-- http[s]://12345_67890
-- http[s]://s_n
-- (256 символов) http[s]://vladvladvladvladvladvladvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
-- http[s]://serv-er_name
-- http[s]://serv.er_name
+- http[s]://server_name.com
+- http[s]://12345_67890.ru
+- http[s]://s_n.r
+- (256 символов) http[s]://vladvladvladvladvladvladvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvlaladvladassss.dwwwww 
+- http[s]://serv-er_name.by
+- http[s]://serv.er_name.ua
 - [пустое]
 
 Соообщение "Ошибка" при следующих значениях поля "URL":
-- http[s]://server.name
-- http[s]://server-name
-- http[s]://Server_name
-- http[s]://server_Name
-- http[s]://servername
-- http[s]://влад_влад
-- http[s]://[пустое]
-- http[s]://[пробел]_[пробел]
-- (257 символов) http[s]://vladvladvladvladvladvlavvvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
-- (512 символов) http[s]:/vladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassssvladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassss
+- http[s]://server_name.влад
+- http[s]://server_name.Vlad
+- http[s]://server_name.1234567890
+- http[s]://server_namecom
+- http[s]://server_name/com
+- http[s]://server_name[пробел]com
+- http[s]://server_name.[пустое]
+- http[s]://server.name.com
+- http[s]://server-name.com
+- http[s]://Server_name.com
+- http[s]://server_Name.com
+- http[s]://servername.com
+- http[s]://влад_влад.com
+- http[s]://[пустое].com
+- http[s]://[пробел]_[пробел].[пробел]
+- (257 символов) http[s]://vladvladvladvladvladvlavvvladvladvladvladvlavladvlavladvl_dvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladv.vladvladasss
+- (512 символов) http[s]:/vladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvladassssvladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvladvladvladvladvladvlavladvlavladvladvladvladvladvl.vladvladvlavladvladassss
 - htp[s]://server_name
 - httpp[s]://server_name
 - http[s]//server_name
 - http[s]:/server_name
 - http[s]:///server_name
-- http[s]://öäβ_ب你
-- http[s]://[~!%№^&()=?[]{}|\/;,+@:"]
-- http[s]://▲♦_♥☺
+- http[s]://öäβ_ب你.com
+- http[s]://[~!%№^&()=?[]{}|\/;,+@:"].com
+- http[s]://▲♦_♥☺.com
 - <input>
 <input type="button" title="Hello">
 <form action="http://tut.by"><input type="submit"></form>
